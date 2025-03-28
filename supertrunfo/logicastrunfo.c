@@ -4,7 +4,7 @@ int main(){
 char estado[50];
 char codigo[50];
 char cidade[50];
-int populacao;
+unsigned long int populacao;
 float area;
 float pib;
 int pontos_turisticos;
@@ -16,7 +16,7 @@ float superpoder;
 char estado2[50];
 char codigo2[50];
 char cidade2[50];
-int populacao2;
+unsigned long int populacao2;
 float area2;
 float pib2;
 int pontos_turisticos2;
@@ -43,7 +43,7 @@ float superpoder2;
     scanf("%s", &cidade);
 
     printf("Qual a população da carta 1?\n");
-    scanf("%d", &populacao);
+    scanf("%ul", &populacao);
 
     printf("Qual é a area em km2 da carta 1? \n");
     scanf("%f", &area);
@@ -67,7 +67,7 @@ float superpoder2;
     scanf("%s", &cidade2);
 
     printf("Qual a população da carta 2?\n");
-    scanf("%d", &populacao2);
+    scanf("%ul", &populacao2);
 
     printf("Qual é a area em km2 da carta 2? \n");
     scanf("%f", &area2);
@@ -82,7 +82,7 @@ float superpoder2;
     printf("Estado da carta 1: %s\n", estado);
     printf("Código da carta 1: %s\n", codigo);
     printf("Cidade da carta 1: %s\n", cidade);
-    printf("População da carta 1: %d\n", populacao);
+    printf("População da carta 1: %ul\n", populacao);
     printf("Área da carta 1: %f\n", area);
     printf("Pib da carta 1: %f\n", pib);
     printf("Número de pontos turísticos da carta 1: %d\n", pontos_turisticos);
@@ -94,7 +94,7 @@ float superpoder2;
     printf("Estado da carta 2: %s\n", estado2);
     printf("Código da carta 2: %s\n", codigo2);
     printf("Cidade da carta 2: %s\n", cidade2);
-    printf("População da carta 2: %d\n", populacao2);
+    printf("População da carta 2: %ul\n", populacao2);
     printf("Área da carta 2: %f\n", area2);
     printf("Pib da carta 2: %f\n", pib2);
     printf("Número de pontos turísticos da carta 2: %d\n", pontos_turisticos2);
